@@ -1,0 +1,14 @@
+src/: Root directory for the source code.
+assets/: Contains images, fonts, and other static assets.
+components/: Contains reusable UI components organized into subfolders.
+common/: Components that are shared across the application.
+layout/: Components responsible for the overall layout of the application, such as headers and footers.
+pages/: Components representing different pages/routes of the application.
+Admin/: Components specific to the admin dashboard.
+contexts/: Contains React context providers and consumers for managing global state.
+hooks/: Custom React hooks used for reusable logic.
+services/: Modules for handling API calls and other external services.
+api/: API service modules for different entities like products and orders.
+auth.js: Service module for handling authentication.
+utils/: Utility functions and helper modules.
+App.js: Root component that renders the entire application and sets up routing.
